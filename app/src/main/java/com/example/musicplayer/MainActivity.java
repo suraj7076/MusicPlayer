@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                     @Override
                     public void onCompletion(MediaPlayer mediaPlayer) {
+                        // Toast Message
                         Toast.makeText(MainActivity.this,"I'm done",Toast.LENGTH_SHORT).show();
                     }
                 });
